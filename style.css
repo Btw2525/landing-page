@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -8,4 +10,78 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: #1F2937;
+}
+
+.links {
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 7px;
+}
+
+.links .right-links {
+  display: flex;
+}
+
+ul {
+  gap: 16px;
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 16px;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  color: #E5E7EB;
+}
+
+.bottom div span {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+button {
+  width: 70px;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 6px;
+  padding: 4px;
+  color: #F9FAF8;
 }
