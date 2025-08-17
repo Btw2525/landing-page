@@ -187,4 +187,16 @@ ul a {
   border: 2px solid #F9FAF8;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  width: 100vw;
+  height: 70px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 12px;
+}
+
 
