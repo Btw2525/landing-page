@@ -16,12 +16,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto";
+  width: 100vw;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   height: 400px;
+  width: 100vw;
   background-color: #1F2937;
 }
 
@@ -76,7 +78,7 @@ ul a {
   color: #F9FAF8;
 }
 
-button {
+.bottom-button {
   width: 70px;
   background-color: #3882F6;
   border: none;
@@ -96,6 +98,7 @@ button {
   align-items: center;
   padding: 32px;
   gap: 16px;
+  width: 100vw;
 }
 
 .info-div span {
@@ -123,6 +126,7 @@ button {
   align-items: center;
   height: 200px;
   background-color: #E5E7EB;
+  width: 100vw;
 }
 
 .quote div {
@@ -139,3 +143,48 @@ button {
 .quote div p {
   align-self: flex-end;
 }
+
+.signup-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 100vw;
+}
+
+.signup-div-in {
+  display: flex;
+  width: 650px;
+  height: 80px;
+  background-color: #3882F6;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.signup-div-in div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  font-size: 14px;
+  color: #F9FAF8;
+}
+
+.signup-div-in div span {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.signup-button {
+  height: 30px;
+  width: 70px;
+  background-color: #3882F6;
+  border-radius: 6px;
+  padding: 4px;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+}
+
+
